@@ -1,2 +1,3 @@
 # astrodemo
 わいわーい
+test
