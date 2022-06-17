@@ -9,4 +9,12 @@ public class mainmenubutton : MonoBehaviour
     {
         SceneManager.LoadScene("play");
     }
+    public void EndGame()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
+    }
 }
