@@ -67,7 +67,7 @@ public class playermove : MonoBehaviour
         if(makestage.stageArray[playerpositionx+x,playerpositiony+y]==1){
             return;
         }else{
-            playerArray[playerpositionx+x,playerpositiony+y]=2;
+            playerArray[playerpositionx+x,playerpositiony+y]=1;
             playerArray[playerpositionx,playerpositiony]=0;
             return;
         }
