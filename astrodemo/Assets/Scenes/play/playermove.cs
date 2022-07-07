@@ -40,13 +40,19 @@ public class playermove : MonoBehaviour
                 }
             }
         }
-        //配列の範囲外だったらリターンする
-        if(playerpositionx+x>=makeplayer.playerArray.GetLength(0) || playerpositionx+x<0 || playerpositiony+y>=makeplayer.playerArray.GetLength(1) || playerpositiony+y<0){
+
+        if(playerpositionx+x>=makeplayer.playerArray.GetLength(0) || playerpositionx+x<0){ //配列のxの範囲外だったらリターンする
             return;
-        }
-        //壁だったらリターン
-        if(makestage.stageArray[playerpositionx+x,playerpositiony+y]==1){
+
+        }else if(playerpositiony+y>=makeplayer.playerArray.GetLength(1) || playerpositiony+y<0){ //配列のyの範囲外だったらリターンする
             return;
+
+        }else if(makestage.stageArray[playerpositionx+x,playerpositiony+y]==1){ //壁だったらリターン
+            return;
+
+        }else if(makestage.stageArray[playerpositionx+x,playerpositiony+y]==4){ //何もない場所だったらリターン
+            return;
+
         }else{ //移動可能な場合
             //配列をアップデート
             makeplayer.playerArray[playerpositionx+x,playerpositiony+y]=1;
@@ -54,6 +60,7 @@ public class playermove : MonoBehaviour
             //オブジェクトを移動させる
             transform.position = new Vector3(playerpositionx+x,0,playerpositiony+y);
             return;
+
         }
     }
 }
