@@ -3,7 +3,11 @@ guid: 9c4fb52e46d49411b8a1839403f4743c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - whitecube: {fileID: 5540348204083559468, guid: 607b0f184daf340fcaea750c3523ee24, type: 3}
+  - blackcube: {fileID: 6010907607979052506, guid: 4426e51eb2bb34072af4e3b54e340cad, type: 3}
+  - start: {fileID: 6369352278240192660, guid: 8d9bcd1e913b04851847eff11858e460, type: 3}
+  - goal: {fileID: 5066037788668474000, guid: adfbee736ab9c42afa49c8027856c703, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

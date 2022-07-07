@@ -4,37 +4,11 @@ using UnityEngine;
 
 public class playermove : MonoBehaviour
 {
+    //スクリプトから変数を取ってくる
     public makestage makestage;
-    public GameObject player;
-    public int[,] playerArray = new int[17,17]{
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
-        {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
-    };
-    void Start()
-    {
-        for(int k=0;k<playerArray.GetLength(0);k++){
-            for(int l=0;l<playerArray.GetLength(1);l++){
-                if(playerArray[k,l]==1){
-                    Instantiate(player,new Vector3(k,0,l),Quaternion.identity);
-                }
-            }
-        }
-    }
+    public makeplayer makeplayer;
+
+    //キーの入力があったらプレイヤーの位置のアップデートをする
     void Update()
     {
         if (Input.GetKeyDown (KeyCode.RightArrow)) {
@@ -51,24 +25,34 @@ public class playermove : MonoBehaviour
         }
     }
 
+    //プレイヤーの位置のアップデート
     void updateplayerposition(int x,int y)
     {
         int playerpositionx=0;
         int playerpositiony=0;
-        for(int i=0;i<playerArray.GetLength(0);i++){
-            for(int j=0;j<playerArray.GetLength(1);j++){
-                if(playerArray[i,j]==1){
+
+        //配列を座標に変換
+        for(int i=0;i<makeplayer.playerArray.GetLength(0);i++){
+            for(int j=0;j<makeplayer.playerArray.GetLength(1);j++){
+                if(makeplayer.playerArray[i,j]==1){
                     playerpositionx=i;
                     playerpositiony=j;
                 }
             }
         }
-        Debug.Log(playerpositiony+" "+playerpositiony);
+        //配列の範囲外だったらリターンする
+        if(playerpositionx+x>=makeplayer.playerArray.GetLength(0) || playerpositionx+x<0 || playerpositiony+y>=makeplayer.playerArray.GetLength(1) || playerpositiony+y<0){
+            return;
+        }
+        //壁だったらリターン
         if(makestage.stageArray[playerpositionx+x,playerpositiony+y]==1){
             return;
-        }else{
-            playerArray[playerpositionx+x,playerpositiony+y]=1;
-            playerArray[playerpositionx,playerpositiony]=0;
+        }else{ //移動可能な場合
+            //配列をアップデート
+            makeplayer.playerArray[playerpositionx+x,playerpositiony+y]=1;
+            makeplayer.playerArray[playerpositionx,playerpositiony]=0;
+            //オブジェクトを移動させる
+            transform.position = new Vector3(playerpositionx+x,0,playerpositiony+y);
             return;
         }
     }
