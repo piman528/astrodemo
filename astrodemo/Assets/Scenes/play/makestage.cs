@@ -9,6 +9,7 @@ public class makestage : MonoBehaviour
     public GameObject blackcube;
     public GameObject start;
     public GameObject goal;
+    public GameObject pitfall;
 
     //ステージの配置
     public int[,] stageArray = new int[21,21]{
@@ -20,7 +21,7 @@ public class makestage : MonoBehaviour
         {4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,4},
         {4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,4},
         {4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,4},
-        {4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,4},
+        {4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,4,4},
         {2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3},
         {2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3},
         {2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3},
@@ -54,6 +55,8 @@ public class makestage : MonoBehaviour
                     Instantiate(goal,new Vector3(i,-1,j),Quaternion.identity);
                 }else if(stageArray[i,j]==3){ //スタートの配置
                     Instantiate(start,new Vector3(i,-1,j),Quaternion.identity);
+                }else if(stageArray[i,j]==5){ //落とし穴の配置
+                    Instantiate(pitfall,new Vector3(i,-1,j),Quaternion.identity);
                 }
                 //しましま
                 if(stagesquares==0){
