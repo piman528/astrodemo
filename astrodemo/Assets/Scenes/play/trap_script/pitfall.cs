@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//public parameter parameter;
-
 public class pitfall : MonoBehaviour
 {
+    public parameter parameter;
+
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
         {
-           //paramater.hp=-10;
+           parameter.hp=parameter.hp-10;
         }
     }
 }

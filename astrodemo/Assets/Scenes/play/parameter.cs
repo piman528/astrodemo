@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class parameter : MonoBehaviour
 {
-    public  int hp=100;
+    public int hp=100;
 
     // Start is called before the first frame update
     void Start()
