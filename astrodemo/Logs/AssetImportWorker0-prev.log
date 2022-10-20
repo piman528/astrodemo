@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49467
+49397
 Successfully changed project path to: /Users/student/Documents/GitHub/astrodemo/astrodemo
 /Users/student/Documents/GitHub/astrodemo/astrodemo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/student/Documents/GitHub/astrodemo/
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 74.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,90 +69,164 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56886
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56129
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001066 seconds.
+Registered in 0.001246 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 72.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.628 seconds
 Domain Reload Profiling:
 	ReloadAssembly (629ms)
-		BeginReloadAssembly (63ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (458ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (449ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (263ms)
+			SetupLoadedEditorAssemblies (255ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
+				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004174 seconds.
+Registered in 0.003429 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94dc80d000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db9b6000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d48b3a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db9b6000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6241200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dcc73000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d48aba00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dc81a000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dcdab000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dcdab000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dc800000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d48b3a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d48b6c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d48b6c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dced9000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dc800000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d8995000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dcfd0000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d48b6c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d48be200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94de0c3000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d48b6c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d8995000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d48bf200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4a4c400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4a50600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4a55400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4a55200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4a54800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4a59800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4a59800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94de1a5000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dcff0000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4a59800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db9db000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4a60200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4a66800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.177 seconds
+- Completed reload, in  1.060 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1178ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (948ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (887ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (444ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (300ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3434 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (97.0 KB). Loaded Objects now: 3906.
-Memory consumption went from 250.4 MB to 250.3 MB.
-Total: 4.091293 ms (FindLiveObjects: 0.425283 ms CreateObjectMapping: 0.393977 ms MarkObjects: 3.125541 ms  DeleteObjects: 0.145295 ms)
+Memory consumption went from 248.7 MB to 248.6 MB.
+Total: 2.790192 ms (FindLiveObjects: 0.242322 ms CreateObjectMapping: 0.184923 ms MarkObjects: 2.269621 ms  DeleteObjects: 0.092657 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,91 +240,127 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 209.634262 seconds.
-  path: Assets/Scenes/play/trap_script/pitfall.cs
-  artifactKey: Guid(68dd3c0bef5e947bab5425b6c4ad52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/trap_script/pitfall.cs using Guid(68dd3c0bef5e947bab5425b6c4ad52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517f7e9f596bc2aeb31cc67a981d3e33') in 0.525220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.199701 seconds.
-  path: Assets/Scenes/play/trap_script/pitfall.cs
-  artifactKey: Guid(68dd3c0bef5e947bab5425b6c4ad52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/trap_script/pitfall.cs using Guid(68dd3c0bef5e947bab5425b6c4ad52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87103e144802d8a7b8a2890b652736ca') in 0.001634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.762635 seconds.
-  path: Assets/Scenes/play/parameter.cs
-  artifactKey: Guid(34313799567c749feaf3679caa727bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/parameter.cs using Guid(34313799567c749feaf3679caa727bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319a25404dcd2e206bd5c3dd92b5aa70') in 0.002217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 244.147147 seconds.
-  path: Assets/Scenes/play/parameter.cs
-  artifactKey: Guid(34313799567c749feaf3679caa727bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/parameter.cs using Guid(34313799567c749feaf3679caa727bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95897a7c6d38928f3fc0fc6e60755639') in 0.001587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 352.824687 seconds.
-  path: Assets/Scenes/play/prefab/pitfall.prefab
-  artifactKey: Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/pitfall.prefab using Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca89546a126b1aa5453522619fd341b') in 1.165431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 91.938449 seconds.
-  path: Assets/Scenes/play/trap_script/pitfall.cs
-  artifactKey: Guid(68dd3c0bef5e947bab5425b6c4ad52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/trap_script/pitfall.cs using Guid(68dd3c0bef5e947bab5425b6c4ad52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f150991d318f24d77ff99cb5106b3a62') in 0.006182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.484955 seconds.
-  path: Assets/Scenes/play/prefab/pitfall.prefab
-  artifactKey: Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/pitfall.prefab using Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64ed0d32a841aee68e4959f376cd7de') in 0.010306 seconds 
+  Time since last request: 287.028861 seconds.
+  path: Assets/Scenes/edit
+  artifactKey: Guid(e35d1d50b8b6e42fab6fc1d995204258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit using Guid(e35d1d50b8b6e42fab6fc1d995204258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14877d7d409496797cee7895073b008f') in 0.006243 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003494 seconds.
+Registered in 0.002993 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94db305000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d63eb000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db305000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4e0b400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db392000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6403600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db3cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db4dc000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db4dc000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db22f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1048800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1050600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1055200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db60a000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db22f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db1dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db73f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8eea00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8adc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db7e4000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8eea00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db1dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8adc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8fa800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8c5e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df808200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df808200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df808200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df80f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8c5e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db91d000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db3cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df808200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db3cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5aab800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1056a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
+- Completed reload, in  0.964 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (964ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (738ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
+			SetupTypeCache (279ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (299ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
+				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadAttributes (211ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3918.
-Memory consumption went from 267.2 MB to 267.2 MB.
-Total: 2.711587 ms (FindLiveObjects: 0.241692 ms CreateObjectMapping: 0.179414 ms MarkObjects: 2.221171 ms  DeleteObjects: 0.068811 ms)
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.7 KB). Loaded Objects now: 3910.
+Memory consumption went from 252.6 MB to 252.5 MB.
+Total: 2.759069 ms (FindLiveObjects: 0.268140 ms CreateObjectMapping: 0.210933 ms MarkObjects: 2.204476 ms  DeleteObjects: 0.074769 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -264,229 +374,267 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 159.844274 seconds.
-  path: Assets/Scenes/play/prefab/pitfall.prefab
-  artifactKey: Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/pitfall.prefab using Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4059a4edefa4d39a038310f468fc4d59') in 0.067185 seconds 
+  Time since last request: 20.619657 seconds.
+  path: Assets/Scenes/edit/NewBehaviourScript.cs
+  artifactKey: Guid(3babea96bb47f44e989e8536aa3d1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/NewBehaviourScript.cs using Guid(3babea96bb47f44e989e8536aa3d1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a32cedca06338842c683ec851faaf4') in 0.429771 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 129.498094 seconds.
-  path: Assets/Scenes/play/trap_script/pitfall.cs
-  artifactKey: Guid(68dd3c0bef5e947bab5425b6c4ad52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/trap_script/pitfall.cs using Guid(68dd3c0bef5e947bab5425b6c4ad52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b07d53f144c61fa597e03a6ce99c8d') in 0.001845 seconds 
+  Time since last request: 8.382759 seconds.
+  path: Assets/Scenes/edit/New Scene.unity
+  artifactKey: Guid(bef11d0b27f8e499d866e2615bbf133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/New Scene.unity using Guid(bef11d0b27f8e499d866e2615bbf133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdb04b3c6b9f7a10252dd1e8ddb1bda') in 0.001223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.013973 seconds.
+  path: Assets/Scenes/edit/stage.cs
+  artifactKey: Guid(3babea96bb47f44e989e8536aa3d1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/stage.cs using Guid(3babea96bb47f44e989e8536aa3d1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f1abd9a35ec19f61a5b049d641bc75') in 0.002919 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002915 seconds.
+Registered in 0.003057 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
-Domain Reload Profiling:
-	ReloadAssembly (983ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (751ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (310ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.9 KB). Loaded Objects now: 3921.
-Memory consumption went from 266.7 MB to 266.7 MB.
-Total: 2.945245 ms (FindLiveObjects: 0.245694 ms CreateObjectMapping: 0.220857 ms MarkObjects: 2.398310 ms  DeleteObjects: 0.079764 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003190 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.992 seconds
-Domain Reload Profiling:
-	ReloadAssembly (993ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (311ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3924.
-Memory consumption went from 267.2 MB to 267.2 MB.
-Total: 2.724336 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.167210 ms MarkObjects: 2.230606 ms  DeleteObjects: 0.074443 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003351 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
-Domain Reload Profiling:
-	ReloadAssembly (975ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (746ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (310ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (73.5 KB). Loaded Objects now: 3927.
-Memory consumption went from 267.5 MB to 267.4 MB.
-Total: 3.256411 ms (FindLiveObjects: 0.252664 ms CreateObjectMapping: 0.171735 ms MarkObjects: 2.740634 ms  DeleteObjects: 0.090486 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003154 seconds.
-Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94db3b1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84d8000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db3b1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84dea00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db510000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84dea00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db54d000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db65a000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db65a000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db397000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e128a600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1292400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1297000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db788000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db397000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db345000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db993000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1298800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8eea00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dce42000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e129d400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db345000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e129d600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e12a2000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e12a6000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e12aae00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a73800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a78200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a7f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a7d200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dcf24000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db54d000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a7d200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db54d000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a8b800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a85200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
+- Completed reload, in  0.958 seconds
 Domain Reload Profiling:
-	ReloadAssembly (983ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (750ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (277ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (308ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.9 KB). Loaded Objects now: 3930.
-Memory consumption went from 267.7 MB to 267.6 MB.
-Total: 2.869221 ms (FindLiveObjects: 0.244458 ms CreateObjectMapping: 0.218822 ms MarkObjects: 2.335900 ms  DeleteObjects: 0.069521 ms)
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3913.
+Memory consumption went from 256.2 MB to 256.1 MB.
+Total: 2.628869 ms (FindLiveObjects: 0.230191 ms CreateObjectMapping: 0.161886 ms MarkObjects: 2.165295 ms  DeleteObjects: 0.070463 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002750 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94db46d000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d53efc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db46d000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e18baa00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db4fa000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1074800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db537000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db65a000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db65a000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db397000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1075000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e107ce00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1081a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db788000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db397000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db345000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db8bd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e18c1c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9af600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db9a2000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9af600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db345000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9b1e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9cbc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9cfe00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9d2e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9d2e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9d2e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9d9c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9d7600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dc83d000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db537000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5370800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db537000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d53efc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5370800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (983ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3916.
+Memory consumption went from 256.7 MB to 256.6 MB.
+Total: 2.691606 ms (FindLiveObjects: 0.234173 ms CreateObjectMapping: 0.194320 ms MarkObjects: 2.190368 ms  DeleteObjects: 0.071912 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -500,114 +648,606 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 912.002721 seconds.
-  path: Assets/Scenes/mainmenu
-  artifactKey: Guid(b36ba42ad5757294c948675590613ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mainmenu using Guid(b36ba42ad5757294c948675590613ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e0fdb36c04f1ec7bdc9845abaedbca') in 0.005859 seconds 
+  Time since last request: 448.133125 seconds.
+  path: Assets/Scenes/edit/makestage.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20142693161690aa7dde499be4df7c90') in 0.006233 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 283.436176 seconds.
-  path: Assets/Scenes/play/hei
-  artifactKey: Guid(470b4bba2aa614251bfc33482df1e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/hei using Guid(470b4bba2aa614251bfc33482df1e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90ed1b47476c254bb3d5f70a20ab12b') in 0.010076 seconds 
+  Time since last request: 250.468945 seconds.
+  path: Assets/Scenes/edit/stage.cs
+  artifactKey: Guid(3babea96bb47f44e989e8536aa3d1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/stage.cs using Guid(3babea96bb47f44e989e8536aa3d1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a747eb947158014c4223b772823ae3') in 0.002885 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.540642 seconds.
-  path: Assets/Scenes/play/hei 1
-  artifactKey: Guid(fcc4a2948118c4faf8408cea870cc8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/hei 1 using Guid(fcc4a2948118c4faf8408cea870cc8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7702b8058515947e3fd60d1547603d3f') in 0.001376 seconds 
+  Time since last request: 0.498616 seconds.
+  path: Assets/Scenes/edit/makestage.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e08cb05094de9db98328ee440022b3') in 0.001363 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.139802 seconds.
-  path: Assets/Scenes/play/hei 2
-  artifactKey: Guid(7a6503f1896ff4455821887237e43056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/hei 2 using Guid(7a6503f1896ff4455821887237e43056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027561e9f4a6e50ff50fa65773e5d7a6') in 0.002824 seconds 
+  Time since last request: 10.419523 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fe796ebcb703ab6163fc6f92241964') in 0.006480 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.736428 seconds.
-  path: Assets/Scenes/play/hei.blend
-  artifactKey: Guid(22129e4d9ac74456c81195a8d421effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/hei.blend using Guid(22129e4d9ac74456c81195a8d421effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb4282524c13dc1f089bc4cbc220486') in 1.271849 seconds 
+  Time since last request: 28.843524 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570c9570b8cabbb351585a10322505bf') in 0.006641 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 953.176758 seconds.
-  path: Assets/Scenes/play/trap_script/pitfall.cs
-  artifactKey: Guid(68dd3c0bef5e947bab5425b6c4ad52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/trap_script/pitfall.cs using Guid(68dd3c0bef5e947bab5425b6c4ad52a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632c0a155e11ab4b5d92f58205c8acd5') in 0.001558 seconds 
+  Time since last request: 200.680783 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be898479576fa0f3da1372cf6b240aa') in 0.001415 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.234754 seconds.
-  path: Assets/Scenes/play/prefab/pitfall.prefab
-  artifactKey: Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/pitfall.prefab using Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a039a85e6ea4d24f7acac28d07e145') in 0.011316 seconds 
+  Time since last request: 206.909155 seconds.
+  path: Assets/Scenes/edit/stage_E.cs
+  artifactKey: Guid(3babea96bb47f44e989e8536aa3d1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/stage_E.cs using Guid(3babea96bb47f44e989e8536aa3d1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8856d4fff708713b7e451702859131') in 0.006536 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.467527 seconds.
-  path: Assets/Scenes/play/parameter.cs
-  artifactKey: Guid(34313799567c749feaf3679caa727bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/parameter.cs using Guid(34313799567c749feaf3679caa727bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438c3313a0149cbab5dc3fdd53602b55') in 0.002154 seconds 
+  Time since last request: 39.450068 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a290cd498311875eb99cc34b77eeb37') in 0.001415 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.405456 seconds.
-  path: Assets/Scenes/play/prefab/pitfall.prefab
-  artifactKey: Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/pitfall.prefab using Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ec8f8ae5f5bfec8eebfc88cd9655ee') in 0.014114 seconds 
+  Time since last request: 82.445154 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53f73da0d4eb9ab1a8a643161d00e0e') in 0.006241 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 297.169607 seconds.
-  path: Assets/Scenes/play/makeplayer.cs
-  artifactKey: Guid(fd8a01dcd90fd5e478cba07a2cede678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/makeplayer.cs using Guid(fd8a01dcd90fd5e478cba07a2cede678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bbd508ecd1448797fe30032dd40f1f') in 0.001512 seconds 
+  Time since last request: 60.162222 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c083f90b653742fa87fca4bc8ecf382f') in 0.006147 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 83.369640 seconds.
-  path: Assets/Scenes/play/prefab/pitfall.prefab
-  artifactKey: Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/pitfall.prefab using Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b879f9a679971788ce7784fe5172a246') in 0.022769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.222313 seconds.
-  path: Assets/Scenes/play/prefab/pitfall.prefab
-  artifactKey: Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/pitfall.prefab using Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be30c0b165807218b2d3d0bee64c0b8d') in 0.007562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.095510 seconds.
-  path: Assets/Scenes/play/prefab/pitfall.prefab
-  artifactKey: Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/pitfall.prefab using Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b132ac345c258b6ffc07a11edc8c98') in 0.015995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.973644 seconds.
-  path: Assets/Scenes/play/prefab/pitfall.prefab
-  artifactKey: Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/pitfall.prefab using Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c319cb7e24bf52eb6ecd7f2fdbcebf') in 0.012236 seconds 
+  Time since last request: 108.903031 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae3021537533168986251d4aa8d9f7a') in 0.004202 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003077 seconds.
+Registered in 0.003067 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94db467000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84f1e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db467000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e118f200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db4f4000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1aad400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db549000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db656000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db656000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db391000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5653000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5370800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5405800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db784000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db391000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db33f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db8b9000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5370800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5405800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db9a2000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5405800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db33f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8eea00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8da800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8adc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8fa800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d569fe00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84f8400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84f8c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84f6e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dc8b3000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db549000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1191200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94db549000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e11a0400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84f1e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Domain Reload Profiling:
+	ReloadAssembly (971ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (738ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3920.
+Memory consumption went from 257.0 MB to 256.9 MB.
+Total: 2.743384 ms (FindLiveObjects: 0.247729 ms CreateObjectMapping: 0.171555 ms MarkObjects: 2.250214 ms  DeleteObjects: 0.073251 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106.015238 seconds.
+  path: Assets/Scenes/play/prefab/pitfall.prefab
+  artifactKey: Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/play/prefab/pitfall.prefab using Guid(4ff9add440c6940b89579e89cda977f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610d0b2375201dd8316d7fb1dd17bd60') in 1.304194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.329106 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3bca3f618437b6832c704d96e5c9c3') in 0.006209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.439614 seconds.
+  path: Assets/Scenes/edit/New Scene.unity
+  artifactKey: Guid(bef11d0b27f8e499d866e2615bbf133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/New Scene.unity using Guid(bef11d0b27f8e499d866e2615bbf133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022c56a6a271b0710529cdc37aff3c5f') in 0.000928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.938873 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742ffb9f23c72388bb94a4fa62ca87ee') in 0.001362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.529801 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde22ebb3ef6dd8f8705bbd496592606') in 0.001433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.094981 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcd8ce076f03799927472dcd6d9aa97') in 0.001446 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002976 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94c45ea000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3e11c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c45ea000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3e18600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4677000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dffa7400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46b4000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47c1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47c1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4514000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8fa800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dff84c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8ca000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c48ef000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4514000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44c2000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4a24000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dff84c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dff62200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4ac9000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6193400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44c2000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3e1ae00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e19e1e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1a14200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84acc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d849f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84acc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dff62200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dff62200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4bab000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46b4000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84b3a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46b4000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84b3600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d84b9c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Domain Reload Profiling:
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (740ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3932.
+Memory consumption went from 266.2 MB to 266.1 MB.
+Total: 2.744781 ms (FindLiveObjects: 0.249154 ms CreateObjectMapping: 0.177262 ms MarkObjects: 2.233984 ms  DeleteObjects: 0.083545 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.168020 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f72d4e9f9f57eb0c7c9bb87fed15a4') in 0.005806 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003256 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1994200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d842aa00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4692000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d8430600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46e7000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47f4000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47f4000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c452f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1995e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e199dc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e19a2800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4922000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c452f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4a57000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e19a4000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e19abe00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4afc000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e19abe00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e19ae600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e19b3800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d775a600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d7762400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d7763600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d7763600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d776a400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d7767e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4b38000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46e7000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d7767e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46e7000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d776e800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d7776400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.963 seconds
+- Completed reload, in  0.986 seconds
 Domain Reload Profiling:
-	ReloadAssembly (964ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (726ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3935.
+Memory consumption went from 266.4 MB to 266.3 MB.
+Total: 2.691737 ms (FindLiveObjects: 0.233372 ms CreateObjectMapping: 0.171335 ms MarkObjects: 2.212930 ms  DeleteObjects: 0.073537 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.076695 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bfd5b3a32bbae0055ddf74ae70b423') in 0.011060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 115.880890 seconds.
+  path: Assets/Scenes/edit/stage_E.cs
+  artifactKey: Guid(3babea96bb47f44e989e8536aa3d1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/stage_E.cs using Guid(3babea96bb47f44e989e8536aa3d1456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f567a880b4d7f4524583cec31daa76c1') in 0.006595 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003014 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1199a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e11a0000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4692000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d70bee00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47f4000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47f4000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c452f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1e0d600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1e14c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1e19800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4922000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c452f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4a57000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5370800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5520800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4afc000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5520800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5520800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e12a3e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1e16400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3feac00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d38e4800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d38e4800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3a63600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3a49200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4c4e000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1e1fa00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df9dc000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d38e4800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (960ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (730ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
 			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
@@ -621,12 +1261,12 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 21.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.9 KB). Loaded Objects now: 3969.
-Memory consumption went from 272.7 MB to 272.7 MB.
-Total: 2.746869 ms (FindLiveObjects: 0.255790 ms CreateObjectMapping: 0.177393 ms MarkObjects: 2.241778 ms  DeleteObjects: 0.071218 ms)
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3938.
+Memory consumption went from 266.6 MB to 266.5 MB.
+Total: 2.730400 ms (FindLiveObjects: 0.249125 ms CreateObjectMapping: 0.161246 ms MarkObjects: 2.248443 ms  DeleteObjects: 0.071060 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -639,124 +1279,402 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 215.239258 seconds.
+  path: Assets/Scenes/edit/NewBehaviourScript.cs
+  artifactKey: Guid(6cb8bb5b73d904df3a93a7fe453980f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/NewBehaviourScript.cs using Guid(6cb8bb5b73d904df3a93a7fe453980f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf13e2fb20801cd88077f0ef238aac9') in 0.005316 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003293 seconds.
+Registered in 0.002992 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6fa4600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d8243600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4692000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1bbfa00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46e1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47ee000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47ee000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4522000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5e93600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5e9b400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3afde00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c491c000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4522000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4a51000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d57e8c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d57f7600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4af6000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1bc8200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d57f7600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3b01000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3b09a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3aa3600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94e1bbfa00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d54c7600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3aa3600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6fac600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4bd8000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46e1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3b0b200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46e1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5ea8200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d822f200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.988 seconds
+- Completed reload, in  0.994 seconds
 Domain Reload Profiling:
-	ReloadAssembly (988ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (997ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (740ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3942.
+Memory consumption went from 266.8 MB to 266.8 MB.
+Total: 2.687289 ms (FindLiveObjects: 0.237717 ms CreateObjectMapping: 0.173536 ms MarkObjects: 2.202294 ms  DeleteObjects: 0.072987 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.908051 seconds.
+  path: Assets/Scenes/edit/NewBehaviourScript.cs
+  artifactKey: Guid(6cb8bb5b73d904df3a93a7fe453980f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/NewBehaviourScript.cs using Guid(6cb8bb5b73d904df3a93a7fe453980f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e615fcdf1822c33b36f28ceba1038b39') in 0.005022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 478.298971 seconds.
+  path: Assets/Scenes/edit/NewBehaviourScript.cs
+  artifactKey: Guid(6cb8bb5b73d904df3a93a7fe453980f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/NewBehaviourScript.cs using Guid(6cb8bb5b73d904df3a93a7fe453980f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93429976a8308fd7a4225f2df2d09178') in 0.006789 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003113 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d73f1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dff4fa00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4692000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dff55600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47ee000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47ee000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c452f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5dd7000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5ddee00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5de3a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c491c000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c452f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4a51000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d68d7600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5de8400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4af6000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5dede00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5df0600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5df5000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5df9000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5dfde00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5dfee00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5e03000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5212c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5e05c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4c48000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d55c8400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d56d2200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5e01c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (753ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (72.9 KB). Loaded Objects now: 3944.
+Memory consumption went from 267.0 MB to 266.9 MB.
+Total: 2.831842 ms (FindLiveObjects: 0.250773 ms CreateObjectMapping: 0.173866 ms MarkObjects: 2.327876 ms  DeleteObjects: 0.078851 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.002423 seconds.
+  path: Assets/Scenes/edit/makestage_E.cs
+  artifactKey: Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/edit/makestage_E.cs using Guid(f3c85e436fccd49dbb70386a386fab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980de82d7fa59a77afa121da3fcd6c70') in 0.005166 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003695 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94df8ca000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3d2ee00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4692000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3d3ac00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46e1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47ee000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47ee000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c452f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4cddc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3d3bc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3d40800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c491c000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c452f000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4a51000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfd2a200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfe88e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4af6000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfe88e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5b07c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3d41a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a6ee00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a73c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a73a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a73000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a75c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6a73600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4bd8000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46e1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d4cddc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46e1000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3d48400 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3d4ea00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Domain Reload Profiling:
+	ReloadAssembly (971ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (738ms)
 			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (310ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (218ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (209ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.9 KB). Loaded Objects now: 3972.
-Memory consumption went from 273.1 MB to 273.0 MB.
-Total: 3.061498 ms (FindLiveObjects: 0.260433 ms CreateObjectMapping: 0.195304 ms MarkObjects: 2.529430 ms  DeleteObjects: 0.075648 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3605.941935 seconds.
-  path: Assets/Scenes/play/prefab/w.blend
-  artifactKey: Guid(22129e4d9ac74456c81195a8d421effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/w.blend using Guid(22129e4d9ac74456c81195a8d421effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c837dfc64a474b060a8b1ea98c5879ff') in 0.148262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.515661 seconds.
-  path: Assets/Scenes/play/prefab/hei.prefab
-  artifactKey: Guid(154ff66bead934c728c45d35fad53bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/hei.prefab using Guid(154ff66bead934c728c45d35fad53bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675deadca3b2f0d352a6daffbd93dda0') in 0.016669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.331485 seconds.
-  path: Assets/Scenes/play/prefab/heihei.prefab
-  artifactKey: Guid(154ff66bead934c728c45d35fad53bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/play/prefab/heihei.prefab using Guid(154ff66bead934c728c45d35fad53bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502c64a8977482c7f6c0865667871a7c') in 0.030669 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003156 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1021ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (773ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (316ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (73.0 KB). Loaded Objects now: 3975.
-Memory consumption went from 273.3 MB to 273.2 MB.
-Total: 2.949720 ms (FindLiveObjects: 0.330001 ms CreateObjectMapping: 0.211944 ms MarkObjects: 2.323799 ms  DeleteObjects: 0.083397 ms)
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3948.
+Memory consumption went from 267.2 MB to 267.2 MB.
+Total: 2.917612 ms (FindLiveObjects: 0.270811 ms CreateObjectMapping: 0.185497 ms MarkObjects: 2.372385 ms  DeleteObjects: 0.088077 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -771,272 +1689,120 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003201 seconds.
+Registered in 0.002699 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d5ec2c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4605000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3f05a00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4692000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d3f0b600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47ee000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c47ee000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4522000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6818e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d68d7600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d68de200 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c491c000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4522000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4a51000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d68d7600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d69ce800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4af6000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d69ce800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c44dd000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfbddc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfbf2c00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfbf6e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfbfbc00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfbfba00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfbfb000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfc00800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94dfbf8600 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c4c48000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d69ce800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94c46cf000 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d6ad9e00 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f94d69ce800 doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.991 seconds
+- Completed reload, in  0.957 seconds
 Domain Reload Profiling:
-	ReloadAssembly (991ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (958ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (762ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (727ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (315ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3978.
-Memory consumption went from 273.5 MB to 273.4 MB.
-Total: 3.160037 ms (FindLiveObjects: 0.293718 ms CreateObjectMapping: 0.182537 ms MarkObjects: 2.584874 ms  DeleteObjects: 0.098196 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002960 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1036ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (802ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (307ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (330ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.7 KB). Loaded Objects now: 3981.
-Memory consumption went from 273.7 MB to 273.7 MB.
-Total: 3.395085 ms (FindLiveObjects: 0.350772 ms CreateObjectMapping: 0.210027 ms MarkObjects: 2.751689 ms  DeleteObjects: 0.081509 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003105 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1070ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (838ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (355ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (73.3 KB). Loaded Objects now: 3984.
-Memory consumption went from 274.0 MB to 273.9 MB.
-Total: 3.264034 ms (FindLiveObjects: 0.311955 ms CreateObjectMapping: 0.276614 ms MarkObjects: 2.566401 ms  DeleteObjects: 0.108408 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003519 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1007ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (763ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (300ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (206ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (205ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.9 KB). Loaded Objects now: 3987.
-Memory consumption went from 274.1 MB to 274.0 MB.
-Total: 2.891772 ms (FindLiveObjects: 0.249652 ms CreateObjectMapping: 0.162222 ms MarkObjects: 2.406983 ms  DeleteObjects: 0.072405 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002984 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/astrodemo/astrodemo/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1001ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (766ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (315ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.7 KB). Loaded Objects now: 3990.
-Memory consumption went from 274.4 MB to 274.3 MB.
-Total: 3.032804 ms (FindLiveObjects: 0.316890 ms CreateObjectMapping: 0.184484 ms MarkObjects: 2.451243 ms  DeleteObjects: 0.079463 ms)
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.8 KB). Loaded Objects now: 3951.
+Memory consumption went from 267.4 MB to 267.4 MB.
+Total: 2.695086 ms (FindLiveObjects: 0.240173 ms CreateObjectMapping: 0.173023 ms MarkObjects: 2.203104 ms  DeleteObjects: 0.078160 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
