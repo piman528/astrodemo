@@ -11,6 +11,12 @@ public class makestage_E : MonoBehaviour
     public GameObject goal;
     public GameObject pitfall;
 
+    public Transform goal_p;
+    public Transform start_p;
+    public Transform floor_p;
+    public Transform wall_p;
+    public Transform pitfall_p;
+
     public stage stage;
     // Start is called before the first frame update
     void Start()
@@ -22,18 +28,24 @@ public class makestage_E : MonoBehaviour
                 //床の配置
                 if(stage.stageArray[i,j]==0){
                     if(stagesquares==0){
-                        Instantiate(blackcube,new Vector3(i,-1,j),Quaternion.identity);
+                        GameObject obj=Instantiate(blackcube,new Vector3(i,-1,j),Quaternion.identity);
+                        obj.transform.SetParent(floor_p);
                     }else{
-                        Instantiate(whitecube,new Vector3(i,-1,j),Quaternion.identity);
+                        GameObject obj=Instantiate(whitecube,new Vector3(i,-1,j),Quaternion.identity);
+                        obj.transform.SetParent(floor_p);
                     }
                 }else if(stage.stageArray[i,j]==1){ //壁の配置
-                    Instantiate(whitecube,new Vector3(i,0,j),Quaternion.identity);
+                    GameObject obj=Instantiate(whitecube,new Vector3(i,0,j),Quaternion.identity);
+                    obj.transform.SetParent(wall_p);
                 }else if(stage.stageArray[i,j]==2){ //ゴールの配置
-                    Instantiate(goal,new Vector3(i,-1,j),Quaternion.identity);
+                    GameObject obj=Instantiate(goal,new Vector3(i,-1,j),Quaternion.identity);
+                    obj.transform.SetParent(goal_p);
                 }else if(stage.stageArray[i,j]==3){ //スタートの配置
-                    Instantiate(start,new Vector3(i,-1,j),Quaternion.identity);
+                    GameObject obj=Instantiate(start,new Vector3(i,-1,j),Quaternion.identity);
+                    obj.transform.SetParent(start_p);
                 }else if(stage.stageArray[i,j]==5){ //落とし穴の配置
-                    Instantiate(pitfall,new Vector3(i,-1,j),Quaternion.identity);
+                    GameObject obj=Instantiate(pitfall,new Vector3(i,-1,j),Quaternion.identity);
+                    obj.transform.SetParent(pitfall_p);
                 }
                 //しましま
                 if(stagesquares==0){
