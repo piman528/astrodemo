@@ -357,6 +357,7 @@
 "Assets/Scenes/edit/stage.cs"
 "Assets/Scenes/edit/updatestage.cs"
 "Assets/Scenes/mainmenu/mainmenubutton.cs"
+"Assets/Scenes/mainmenu/start.cs"
 "Assets/Scenes/play/goal.cs"
 "Assets/Scenes/play/makeplayer.cs"
 "Assets/Scenes/play/makestage.cs"
