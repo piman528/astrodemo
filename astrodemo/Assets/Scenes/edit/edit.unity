@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c85e436fccd49dbb70386a386fab16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whitecube: {fileID: 5540348204083559468, guid: 607b0f184daf340fcaea750c3523ee24, type: 3}
+  whitecube: {fileID: 389425932644592978, guid: f7b921ef19dc19d478cbd7891451c99d, type: 3}
   blackcube: {fileID: 6010907607979052506, guid: 4426e51eb2bb34072af4e3b54e340cad, type: 3}
   start: {fileID: 6369352278240192660, guid: 8d9bcd1e913b04851847eff11858e460, type: 3}
   goal: {fileID: 5066037788668474000, guid: adfbee736ab9c42afa49c8027856c703, type: 3}
@@ -407,6 +407,7 @@ GameObject:
   - component: {fileID: 744930653}
   - component: {fileID: 744930652}
   - component: {fileID: 744930651}
+  - component: {fileID: 744930654}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -480,6 +481,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!114 &744930654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744930650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &798702685
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,7 +949,7 @@ GameObject:
   - component: {fileID: 1692086473}
   m_Layer: 0
   m_Name: update_stage
-  m_TagString: Untagged
+  m_TagString: update_stage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -949,6 +966,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7b6527490753412db8dc67058b9480b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floor_p: {fileID: 0}
+  trap_p: {fileID: 0}
 --- !u!4 &1692086474
 Transform:
   m_ObjectHideFlags: 0
@@ -1047,7 +1066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -559}
+  m_AnchoredPosition: {x: -414, y: -207}
   m_SizeDelta: {x: 330, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2030737521
