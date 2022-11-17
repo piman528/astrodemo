@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class editmode : MonoBehaviour
 {
-    public int mode;
+    public int mode=0;
 
     public void pitfall_mode()
     {

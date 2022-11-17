@@ -5,9 +5,9 @@ using UnityEngine.EventSystems;
 
 public class click_floor : MonoBehaviour, IPointerClickHandler
 {
-    public updatestage updatestage;
     public void OnPointerClick(PointerEventData eventData)
     {
-        print($"オブジェクト {name} がクリックされたよ！");
+        Vector3 this_object_point = this.transform.position;
+        GameObject.FindWithTag("update_stage").GetComponent<updatestage>().update_stage_object(this_object_point);
     }
 }
