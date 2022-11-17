@@ -13,4 +13,8 @@ public class buttonpress : MonoBehaviour
             editmode.press_esc_mode();
         }
     }
+    public void press_pitfall()
+    {
+        editmode.pitfall_mode();
+    }
 }
